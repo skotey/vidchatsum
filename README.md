@@ -27,8 +27,8 @@ Process the ASR time-stamped words to generate the sentence segments. The senten
 
 **Aural**
 
-To extract the acoustic word embeddings for the audio feature [Hubert](https://huggingface.co/facebook/hubert-base-ls960) is utilized. Also pitch variance data is extracted using the [TorchCrepe](https://pypi.org/project/torchcrepe/) library.
+To extract the acoustic word embeddings for the audio features, [Hubert](https://huggingface.co/facebook/hubert-base-ls960) is utilized. Also pitch variance data is extracted using the [TorchCrepe](https://pypi.org/project/torchcrepe/) library.
 
 **Visual**
 
-Video extracted can be extracted using a pre-trained [CLIP](https://huggingface.co/openai/clip-vit-base-patch32) model. This [repository](https://v-iashin.github.io/video_features/models/clip/) is recommend for use. To extract hand gesture information, [MediaPipe](https://github.com/google-ai-edge/mediapipe) can be used. 
+Video features are extracted using a pre-trained [CLIP](https://huggingface.co/openai/clip-vit-base-patch32) model. This [repository](https://v-iashin.github.io/video_features/models/clip/) is recommend for use. To extract hand gesture information, [MediaPipe](https://github.com/google-ai-edge/mediapipe) can be used. 
