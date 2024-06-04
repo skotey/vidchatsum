@@ -5,7 +5,7 @@ In this repository we provide the annotations for the paper “Multimodal Annota
 The [`data`](https://github.com/skotey/vidchatsum/tree/main/data) folder contains the train, test and val (*.json) files with the annotations. The video_id in the json files can be mapped to the original dataset videos. These mappings are provided in the [`video_id_mappings`](https://github.com/skotey/vidchatsum/tree/main/video_id_mappings) folder. Due to copyright issues, we are unable to provide the original video data, however you can contact the authors of the [`Candor dataset`](https://betterup-data-requests.herokuapp.com/)to download it, inline with their terms and agreement.
 
 
-## Annotation Download
+## Data Annotations
 
 ```plaintext
 
