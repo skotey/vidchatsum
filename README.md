@@ -4,6 +4,10 @@ In this repository we provide the annotations for the paper “Multimodal Annota
 
 The data folder contains the train, test and val (*.json) files with the annotations. The video_id in the json files can be mapped to the original dataset videos. These mappings are provided in the video_id_mappings folder. Due to copyright issues, we are unable to provide the original video data, however you can contact the authors to download it, inline with their terms and agreement.
 
+
+```plaintext
+.
+
 ├── data
 │   ├── test.json
 │   ├── train.json
@@ -14,21 +18,3 @@ The data folder contains the train, test and val (*.json) files with the annotat
     └── video_id_mappings_val.txt
 
 
- ├── data
-     └── BLiSS
-         ├── annotation
-         ├── feature
-     └── CNN
-         ├── annotation
-         ├── feature
-     └── Daily_Mail
-         ├── annotation
-         ├── feature
-     └── SumMe
-         ├── caption
-         ├── feature
-         ├── splits.yml
-     └── TVSum
-         ├── caption
-         ├── feature
-         ├── splits.yml
