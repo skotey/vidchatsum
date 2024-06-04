@@ -18,7 +18,7 @@ The [`data`](https://github.com/skotey/vidchatsum/tree/main/data) folder contain
     ├── video_id_mappings_train.txt
     └── video_id_mappings_val.txt
 
-
+```
 ## Feature Extraction
 
 **Linguistics:**
