@@ -12,3 +12,23 @@ The data folder contains the train, test and val (*.json) files with the annotat
     ├── video_id_mappings_test.txt
     ├── video_id_mappings_train.txt
     └── video_id_mappings_val.txt
+
+
+ ├── data
+     └── BLiSS
+         ├── annotation
+         ├── feature
+     └── CNN
+         ├── annotation
+         ├── feature
+     └── Daily_Mail
+         ├── annotation
+         ├── feature
+     └── SumMe
+         ├── caption
+         ├── feature
+         ├── splits.yml
+     └── TVSum
+         ├── caption
+         ├── feature
+         ├── splits.yml
